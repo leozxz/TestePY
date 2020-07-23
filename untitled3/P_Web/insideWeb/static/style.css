@@ -1,0 +1,101 @@
+body{
+    background-image: url(img/back1.png);
+    position: fixed;
+}
+.start h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: whitesmoke;
+    position: relative;
+    top: 120px;
+    left: 20%;
+}
+.start button {
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    position: relative;
+    top: 100px;
+    left: 25%;
+    padding-left: 1.5%;
+    padding-top: 1.5%;
+    padding-right: 1.5%;
+    padding-bottom: 1.5%;
+    opacity: 0.9;
+    background-color: whitesmoke;
+}
+.start button.edit a{
+    color: black;
+}
+.start button.cad{
+    background-color: turquoise;
+}
+.start button.cad a{
+    color: black;
+}
+.start button.cad_cad{
+    background-color: turquoise;
+  
+    position: relative;
+    top: 50px;
+    left: 20%;
+}
+.start button.cad_cad a{
+    color: black;
+    text-decoration: none;
+}
+
+.not h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    position: relative;
+    top: 160px;
+    left: 40%;
+}
+.carousel{
+    position: relative;
+    top: 90px;
+    left: 20%;
+    height: 330px;
+    perspective: 500px;
+  }
+  .carousel .carousel-item{
+    width: 210px;
+  }
+  .carousel .carousel-item img{
+    width: 100%;
+  }
+  .carousel .carousel-item h3{
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #000;
+    box-sizing: border-box;
+    padding: 10px 5px;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+  }
+
+.cad_geral h1{
+    color: whitesmoke;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 30px;
+    left: 20%;
+}
+.cad_geral form{
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 35px;
+    left: 20%;
+}
+.cad_geral form input.name{
+    width: 266px;
+}

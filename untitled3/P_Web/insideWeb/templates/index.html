@@ -1,0 +1,59 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Teste de COVID</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="{%  static 'style.css' %}">
+
+  </head>
+  <body>
+        <div class="start">
+           
+            <h1>NOS AJUDE A CONTABILIZAR</h1> 
+            <button  class="cad"><a href="/cad.html">AJUDAR!</a></button>
+            <button  class="edit"><a href="/edit.html">EDITAR/EXCLUIR</a></button>
+        </div>
+
+        <div class="not">
+            
+            <h1>ACOMPANHE AS NOTICIAS</h1>
+
+            <div class="carousel">
+                <div class="carousel-item">
+                  <img src="../static/img/img1.png">
+                  <a href="https://www.metropoles.com/saude/quatro-estados-podem-estar-vivendo-2a-onda-de-covid-19-alerta-fiocruz"><h3>Metropoles</h3></a>
+                </div>
+                <div class="carousel-item">
+                  <img src="../static/img/img2.png">
+                  <a href="https://www.correiobraziliense.com.br/app/noticia/cidades/2020/07/23/interna_cidadesdf,874468/com-medo-de-ir-ao-hospital-brasilienses-morrem-por-covid-19-dentro-de.shtml"><h3>Correio Bsb</h3></a>
+                </div>
+                <div class="carousel-item">
+                  <img src="../static/img/img3.png">
+                  <a href="https://g1.globo.com/bemestar/vacina/noticia/2020/07/23/eua-sugerem-preco-global-de-cerca-de-us-40-para-vacina-contra-covid-19.ghtml"><h3>G1</h3></a>
+                </div>
+                <div class="carousel-item">
+                  <img src="../static/img/img4.png">
+                  <a href="https://noticias.r7.com/saude/fotos/chegada-da-vacina-vai-acabar-com-a-pandemia-de-covid-19-saiba-mais-23072020#!/foto/1"><h3>R7</h3></a>
+                </div>
+                <div class="carousel-item">
+                  <img src="../static/img/img5.png">
+                  <a href="https://www.agazeta.com.br/es/cotidiano/covid-19-no-es-volta-as-aulas-expoe-161-mil-pessoas-do-grupo-de-risco-0720"><h3>Gazeta</h3></a>
+                </div>
+                <div class="carousel-item">
+                  <img src="../static/img/img6.png">
+                  <a href="https://veja.abril.com.br/saude/coronavirus-estudo-identifica-seis-tipos-de-manifestacoes-de-covid-19/"><h3>Veja</h3></a>
+                </div>
+
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+        $('.carousel').carousel();
+      });
+    </script>
+  </body>
+</html>

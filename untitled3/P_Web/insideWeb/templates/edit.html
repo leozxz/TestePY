@@ -1,0 +1,56 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Editar ou Excluir</title>
+    <link rel="stylesheet" href="{%  static 'style.css' %}">
+  </head>
+  <body>
+    <div class="cad_geral">
+
+        <h1>Editar ou Excluir</h1>
+        <form enctype="application/x-www-form-urlencoded" method="POST">
+            <label>Nome:</label>
+            <input class="name" type="text" name="Nome_completo" placeholder="Seu nome completo">
+
+            <br>
+            
+            <label>Data de nascimento:</label>
+            <input type="text" name="data" placeholder="xx/xx/xxxx">
+
+        </form>
+        <form enctype="application/x-www-form-urlencoded" method="GET">
+            <label>Qual você deseja:</label>
+            <br>
+            <input type="radio" name="edit" value="edit">Editar
+            <br>
+            <input type="radio" name="edit" value="excluir">Excluir
+            <br>
+            <label>Tipo do teste:</label>
+            <br>
+            <input type="radio" name="tipo" value="RT-PCR">RT-PCR
+            <br>
+            <input type="radio" name="tipo" value="Sorologia">Sorologia
+            <br>
+            <input type="radio" name="tipo" value="Teste_Rápido_Antígenos">Teste Rápido - Antígenos
+            <br>
+            <input type="radio" name="tipo" value="Teste_Rápido_Anticorpos">Teste Rápido - Anticorpos
+        
+            <br>
+
+            <label>Resultado</label>
+            <br>
+            <input type="radio" name="result" value="pos">Positivo
+            <br>
+            <input type="radio" name="result" value="neg">Negativo
+
+        </form>
+
+    </div>
+    <div class="start">
+        <button class="cad_cad"><a href="/index.html">Obrigado pela ajuda!</a></button>
+    </div>
+
+  </body>
+</html>
