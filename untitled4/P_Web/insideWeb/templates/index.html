@@ -1,0 +1,127 @@
+{% load static %}
+<html>
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Cinema | Home</title>
+        <link rel="stylesheet" href="{% static 'style.css' %}">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <section>
+            <div class="film_img">
+                <a href="./filmes-html/end_game.html"><img data-name="Vingadores guerra infinita" class="slide" src="../static/img/img_folder/img1.png" style="width: 100%;"></a>
+                <a href="#"><img data-name="Frozen" class="slide" src="../static/img/img_folder/img2.png" style="width: 100%;"></a>
+                <a href="#"><img data-name="Anjos da lei 2" class="slide" src="../static/img/img_folder/img3.png" style="width: 100%;"></a>
+                <a href="#"><img data-name="Homem aranha longe de casa" class="slide" src="../static/img/img_folder/img4.png" style="width: 100%;"></a>
+                <a href="#"><img data-name="Carros" class="slide" src="../static/img/img_folder/img5.png" style="width: 100%;"></a>
+                <a href="#"><img data-name="Misterio do mediterraneo" class="slide" src="../static/img/img_folder/img6.png" style="width: 100%;"></a>
+            </div>
+
+            <div class="arrow" id="arrow-prev">
+                <i class="fa fa-arrow-circle-left fa-3x" aria-hidden="true"></i>
+            </div>
+            <div class="arrow" id="arrow-next">
+                <i class="fa fa-arrow-circle-right fa-3x" aria-hidden="true"></i>
+            </div>
+            <div id="film-name" class="description"></div>
+        </section>
+
+        <section class="pos_img">
+            <nav class="bar">
+                <div class="logo">
+                    <h4>ARCHFILM</h4>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">NEW FILM</a></li>
+                        <li><a href="#">NETFLIX</a></li>
+                        <li><a href="#">DISNEY</a></li>
+                        <li><a href="#">MARVEL</a></li>
+                    </ul>
+                </div>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+            <div class="search_bar">
+                <input type="text" class="search_txt" name="" placeholder="Encontre seu filme">
+                <a class="search_btn" href="#">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </a>
+            </div>
+        </section>
+        <section class="posNav_img">
+            <div class="netflix">
+                <a href="#" id="#"><img src="../static/img/Netflix_film/N1.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Netflix_film/N2.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Netflix_film/N3.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Netflix_film/N4.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Netflix_film/N5.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Netflix_film/N6.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Netflix_film/N7.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Netflix_film/N8.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Netflix_film/N9.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Netflix_film/N10.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Netflix_film/N11.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Netflix_film/N12.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+            </div>
+            <div class="disney">
+                <a href="#" id="#"><img src="../static/img/Disney_film/N1.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Disney_film/N2.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Disney_film/N3.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Disney_film/N4.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Disney_film/N5.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Disney_film/N6.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Disney_film/N7.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Disney_film/N8.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Disney_film/N9.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Disney_film/N10.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Disney_film/N11.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Disney_film/N12.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+            </div>
+            <div class="marvel">
+                <a href="#" id="#"><img src="../static/img/Marvel_film/N1.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Marvel_film/N2.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Marvel_film/N3.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Marvel_film/N4.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Marvel_film/N5.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Marvel_film/N6.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Marvel_film/N7.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Marvel_film/N8.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Marvel_film/N9.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Marvel_film/N10.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Marvel_film/N11.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Marvel_film/N12.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+            </div>
+            <div class="other">
+                <a href="#" id="#"><img src="../static/img/Other_film/N1.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Other_film/N2.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Other_film/N3.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Other_film/N4.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Other_film/N5.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Other_film/N6.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Other_film/N7.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Other_film/N8.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Other_film/N9.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Other_film/N10.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Other_film/N11.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+                <a href="#" id="#"><img src="../static/img/Other_film/N12.png" style="width: 300px; margin-right: 20px; margin-bottom: 20px;"></a>
+            </div>
+        </section>
+
+        <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+		<script src="{% static 'Js/script.js' %}"></script>
+    </body>
+    <footer>
+        <h4>Zxzart</h4>
+    </footer>
+
+</html>
